@@ -413,3 +413,8 @@ byte[] ciphertext = cipher.doFinal(plaintext);
 | FF-0005 | Hardcoded App Credentials | Same file (VodkaConst.java) contains both AES keys and app credentials |
 | FF-0006 | No Replay Protection | Static key means replayed ciphertexts are valid across sessions |
 | FF-0007 | CBC Without MAC | AES-CBC without HMAC enables bit-flipping and ciphertext manipulation |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

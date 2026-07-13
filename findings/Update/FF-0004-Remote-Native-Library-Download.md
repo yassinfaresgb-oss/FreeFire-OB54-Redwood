@@ -442,3 +442,8 @@ System.loadLibrary(name);
 | FF-0017 | Use of MD5 | Direct â€” MD5 is the hash algorithm used in this integrity check |
 | FF-0009 | Cleartext HTTP Traffic | If download URL uses HTTP, this compounds the vulnerability |
 | FF-0001 | TCP Without TLS | Transport layer weakness that enables MITM on the download |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

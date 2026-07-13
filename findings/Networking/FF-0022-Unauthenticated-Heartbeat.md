@@ -480,3 +480,8 @@ public void onHeartbeatReceived(String clientId, byte[] heartbeatData) {
 | FF-0001 | Compound â€” plaintext TCP enables injection of unauthenticated heartbeats |
 | FF-0006 | Sibling â€” no replay protection compounds heartbeat forgery risk |
 | FF-0002 | Adjacent â€” static AES key could be used to authenticate heartbeats |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

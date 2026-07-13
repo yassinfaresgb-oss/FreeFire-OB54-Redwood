@@ -401,3 +401,8 @@ OkHttpClient client = new OkHttpClient.Builder()
 |---|---|---|
 | FF-0001 | TCP Without TLS | Bypassed hosts have no TLS at all; this finding covers hosts that technically use TLS but skip validation |
 | FF-0009 | Cleartext HTTP Traffic | Complementary â€” some traffic may not use TLS at all rather than having TLS bypassed |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

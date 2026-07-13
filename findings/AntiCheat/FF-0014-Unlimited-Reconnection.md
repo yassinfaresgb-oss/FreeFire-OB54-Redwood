@@ -452,3 +452,8 @@ Client reconnect attempt #4 (within 300s) â†’ cooldown = 3600s + flag for review
 | FF-0015 | No Bot Detection Mechanisms in Signaling Protocol | Medium | Lack of bot detection compounds reconnection abuse â€” automated clients can exploit unlimited retries without proof-of-humanity checks. |
 | FF-0001 | TCP Connection Without TLS | Medium | If signaling transport lacks TLS (FF-0001), network-level attackers can more easily trigger connection drops to force reconnection cycles. |
 | FF-0009 | Cleartext HTTP Traffic Permitted | Medium | Combined with cleartext traffic, network intermediaries can inject TCP RST packets to force reconnections at will. |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

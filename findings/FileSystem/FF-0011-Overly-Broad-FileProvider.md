@@ -519,3 +519,8 @@ public Uri getSecureContentUri(File file) {
 |---|---|---|---|
 | FF-0013 | Exported Components Without Adequate Protection | Amplifier | Exported components may trigger URI permission grants |
 | FF-0010 | Unencrypted Sensitive Data Storage | Data Source | Files exposed via broad FileProvider paths may contain plaintext tokens |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

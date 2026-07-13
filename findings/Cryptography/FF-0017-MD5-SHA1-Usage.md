@@ -516,3 +516,8 @@ MessageDigest md = MessageDigest.getInstance("SHA-256");
 | FF-0004 | Native Library Download Over Insecure Channel | Medium | If native libraries are downloaded over insecure channels (FF-0004) AND the integrity check uses weak MD5 (FF-0017), the entire native code verification chain is compromised. |
 | FF-0021 | AES/ECB in CMAC and EAX Constructions | Informational | AES/ECB usage in `C7638m.java` and `C7627b.java` is NOT a finding â€” these are standard cryptographic constructions where ECB mode is used correctly. Unlike MD5/SHA-1, these usages are cryptographically sound. |
 | FF-0009 | Cleartext HTTP Traffic Permitted | Medium | Native libraries downloaded over cleartext HTTP (FF-0004 + FF-0009) and verified with weak MD5 (FF-0017) creates a complete supply chain compromise path. |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

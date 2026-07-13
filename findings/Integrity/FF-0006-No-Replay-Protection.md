@@ -460,3 +460,8 @@ public void run() {
 | FF-0002 | Static AES Key/IV | Static key means replayed ciphertext is valid across sessions |
 | FF-0007 | CBC Without MAC | No integrity check means replayed messages are not detectable via ciphertext manipulation |
 | FF-0005 | Hardcoded Credentials | Stolen credentials can be replayed for authentication |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

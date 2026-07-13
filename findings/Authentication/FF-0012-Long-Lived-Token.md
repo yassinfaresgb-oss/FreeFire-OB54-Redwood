@@ -569,3 +569,8 @@ public void logout() {
 | FF-0005 | Hardcoded Credentials | Amplifier | Hardcoded credentials may bypass token-based authentication entirely |
 | FF-0010 | Unencrypted Sensitive Data Storage | Direct Dependency | Tokens stored in plaintext SharedPreferences (same storage mechanism) |
 | FF-0008 | One-Way Authentication | Related | Server may not authenticate to client, enabling MITM token interception |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

@@ -558,3 +558,8 @@ public byte[] decrypt(byte[] combined, SecretKey aesKey) {
 ---
 
 *Finding FF-0007 version: 3.0 Â· Last updated: July 2026*
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

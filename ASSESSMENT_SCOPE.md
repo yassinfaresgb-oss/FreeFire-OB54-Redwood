@@ -96,3 +96,8 @@ Findings marked with this note depend on server-side behavior that cannot be ver
 ---
 
 *Assessment Scope version: 2.0 Â· Last updated: July 2026*
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

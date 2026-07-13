@@ -523,3 +523,8 @@ private static final String FALLBACK_SERVER = "https://202.81.106.160:39001";
 ---
 
 *Finding FF-0009 version: 3.0 Â· Last updated: July 2026*
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

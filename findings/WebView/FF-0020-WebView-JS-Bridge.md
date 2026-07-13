@@ -506,3 +506,8 @@ public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request
 | FF-0003 | Compound â€” SSL bypass enables MITM injection into WebView content |
 | FF-0009 | Compound â€” cleartext HTTP permits WebView content interception |
 | FF-0019 | Adjacent â€” VK integration attack surface shared with WebView bridges |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

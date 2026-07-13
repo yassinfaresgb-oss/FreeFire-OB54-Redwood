@@ -502,3 +502,8 @@ public void handleLogin(String email, String password) {
 | FF-0010 | Sensitive Data in Application Storage | Medium | After login, tokens may be stored insecurely (FF-0010), creating a secondary credential exposure path if the device is compromised. |
 | FF-0012 | Insecure Token Handling | Medium | If the OAuth token (recommended replacement for password-in-body) is itself handled insecurely (FF-0012), the remediation for FF-0018 is undermined. |
 | FF-0011 | No Certificate Pinning | Medium | Without certificate pinning, MITM attackers can intercept the HTTPS connection and extract the password from the POST body, even if TLS is used. |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

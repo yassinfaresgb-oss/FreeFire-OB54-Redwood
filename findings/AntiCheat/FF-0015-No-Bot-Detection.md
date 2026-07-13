@@ -505,3 +505,8 @@ message CSSignalingChallengeResponse {
 | FF-0016 | Spoofable Device Fingerprint in Login Request | Medium | Device fingerprints sent in login requests are client-provided and easily spoofed â€” no cryptographic binding to hardware. Combined with absent bot detection, this means both identity and humanity are unverified. |
 | FF-0014 | Unlimited Reconnection Attempts With No Rate Limiting | Medium | Without bot detection on the signaling channel, automated clients can exploit unlimited reconnection attempts (FF-0014) without any proof-of-humanity barrier. |
 | FF-0001 | TCP Connection Without TLS | Medium | If the signaling TCP connection lacks TLS, network attackers can inject or modify signaling messages, further compounding the bot detection gap. |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

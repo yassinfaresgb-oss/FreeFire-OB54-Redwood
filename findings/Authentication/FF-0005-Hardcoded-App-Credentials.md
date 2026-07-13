@@ -379,3 +379,8 @@ public class VodkaConst {
 | FF-0002 | Static AES Key/IV | Same file (VodkaConst.java) â€” DEFAULT_KEY and TEST_KEY are used in the AES encryption layer |
 | FF-0001 | TCP Without TLS | These credentials are the only protection on the TCP channel |
 | FF-0006 | No Replay Protection | Stolen credentials enable replay attacks |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

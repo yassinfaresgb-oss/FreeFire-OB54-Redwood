@@ -439,3 +439,8 @@ lintRule {
 | FF-0002 | Sibling â€” static AES key used in CBC mode (different weakness) |
 | FF-0007 | Sibling â€” CBC without MAC (ECB is correct here; CBC is not) |
 | FF-0019 | Adjacent â€” key material that these crypto constructions may protect |
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*

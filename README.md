@@ -114,3 +114,8 @@ FF-SECURITY-ASSESSMENT-OB54/
 ---
 
 *Assessment conducted: July 2026 Â· Classification: Confidential â€” Internal Use Only*
+
+---
+
+*Author: swift.dev ([@yassinfaresgb-oss](https://github.com/yassinfaresgb-oss)) · Repository: [FreeFire-OB54-Redwood](https://github.com/yassinfaresgb-oss/FreeFire-OB54-Redwood)*
+*Assessment conducted: July 2026 · Classification: Confidential — Internal Use Only*
