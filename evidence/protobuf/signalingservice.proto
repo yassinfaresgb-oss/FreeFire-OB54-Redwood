@@ -1,0 +1,46 @@
+# Protobuf Definitions — Signaling Service
+
+**Evidence for: FF-0001, FF-0006, FF-0015**
+
+---
+
+## File: `resources/signalingservice.proto`
+
+This file defines all 17 message types used in the TCP signaling protocol.
+
+### Message Structure
+
+```protobuf
+message ProtoReq {
+    required int32 cmd = 1;
+    optional bytes data = 2;
+}
+```
+
+**Security Observation:** No nonce, timestamp, or sequence number field — supports FF-0006 (no replay protection).
+
+### Inbound Messages
+
+```protobuf
+message MessageNotify {
+    required int64 account_id = 1;
+    required int32 protocol = 2;
+    required int32 ret = 3;
+    required int32 cmd = 4;
+    optional bytes content = 5;
+}
+```
+
+### Message Types (17 total)
+
+| CMD | Purpose | Category |
+|-----|---------|----------|
+| 1 | INIT | Session |
+| 2 | HEARTBEAT | Keep-alive |
+| 11 | ACCOUNT | Account |
+| 40 | SIGNALING | Voice |
+| +13 | Various voice management | Voice |
+
+---
+
+*Evidence version: 2.0 · Last updated: July 2026*
